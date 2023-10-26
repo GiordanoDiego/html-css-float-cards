@@ -48,7 +48,7 @@ h1, header p{
 
 
 /* MAIN */
-
+/* nella formula sottraggo - 40px poichè sottrarrò 40 px a ogni box_contatto che ho non nel  */
 .section_box > *{
     float: left;
     width: calc((100% / 3) - 40px);
