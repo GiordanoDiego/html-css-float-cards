@@ -1,0 +1,71 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* GENERAL */
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.clear_fix::after{
+    content:""; 
+    display: table;
+    clear: both;
+}
+
+.float_left{
+    float: left;
+}
+.color_pink{
+    color: #E53170;
+}
+
+/* header */
+header{
+    text-align: center;
+}
+
+h1, header p{
+    padding-bottom: 30px;
+}
+
+
+/* MAIN */
+
+.section_box > *{
+    float: left;
+    width: calc((100% / 3) - 40px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.box_specific{
+    background-color: black;
+    color: white;
+}
+
+.information > *{
+    padding-top: 10px;
+}
+
+.email_color{
+    color: #68C4E5;
+}
